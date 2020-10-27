@@ -6,7 +6,7 @@ Detailed documentation is available on [Microsoft Docs](https://docs.microsoft.c
 
 ARM template to deploy a GPU enabled VM with IoT Edge pre-installed (via cloud-init)
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMSKeith%2Fiotedge-vm-deploy%2Fmaster%2FedgeDeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTheBlackMini%2Fiotedge-vm-deploy%2Fmaster%2FedgeDeploy.json" target="_blank">
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png" />
 </a>
 
@@ -21,7 +21,7 @@ The ARM template visualized for exploration
 az deployment group create \
   --name edgeVm \
   --resource-group replace-with-rg-name \
-  --template-uri "https://raw.githubusercontent.com/MSKeith/iotedge-vm-deploy/master/edgeDeploy.json" \
+  --template-uri "https://raw.githubusercontent.com/TheBlackMini/iotedge-vm-deploy/master/edgeDeploy.json" \
   --parameters dnsLabelPrefix='my-edge-vm1' \
   --parameters adminUsername='azureuser' \
   --parameters deviceConnectionString=$(az iot hub device-identity show-connection-string --device-id replace-with-device-name --hub-name replace-with-hub-name -o tsv) \
