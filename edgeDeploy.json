@@ -65,9 +65,9 @@
     },
     "location": {
       "type": "string",
-      "defaultValue": "eastus",
+      "defaultValue": "australiaeast",
       "allowedValues": [
-        "eastus",
+        "australiaeast",
         "canadacentral",
         "southcentralus",
         "westus2"
